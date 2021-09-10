@@ -9,15 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // This class creates the instance of a widget app 
     return MaterialApp(
-      title: "Welcome to Flutter", // identify the app for the user 
-      home: Scaffold( // visual scaffold
-        appBar: AppBar(
-          title: const Text("Welcome to my first Flutter app"),
-        ),
-        body: Center(
-          child: RandomWords(),
-          ),
-      ),
+      title: "Name Generator",
+          home:RandomWords(),
     );
   }
 }
